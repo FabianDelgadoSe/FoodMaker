@@ -23,7 +23,7 @@ gdjs.MainMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.MainMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.MainMenuCode.eventsList0x7c73fc = function(runtimeScene) {
+gdjs.MainMenuCode.eventsList0x79bfec = function(runtimeScene) {
 
 {
 
@@ -97,8 +97,8 @@ gdjs.MainMenuCode.GDYourBrandLogoObjects1.createFrom(runtimeScene.getObjects("Yo
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x7c73fc
-gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects2Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects2});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects1});gdjs.MainMenuCode.eventsList0x69417c = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x79bfec
+gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects2Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects2});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects1});gdjs.MainMenuCode.eventsList0x79ce7c = function(runtimeScene) {
 
 {
 
@@ -113,8 +113,8 @@ gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x69417c
-gdjs.MainMenuCode.eventsList0x6908b4 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x79ce7c
+gdjs.MainMenuCode.eventsList0x79ca0c = function(runtimeScene) {
 
 {
 
@@ -164,26 +164,26 @@ gdjs.MainMenuCode.GDPlayButtonTextObjects1.createFrom(runtimeScene.getObjects("P
 }
 }
 { //Subevents
-gdjs.MainMenuCode.eventsList0x69417c(runtimeScene);} //End of subevents
+gdjs.MainMenuCode.eventsList0x79ce7c(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6908b4
+}; //End of gdjs.MainMenuCode.eventsList0x79ca0c
 gdjs.MainMenuCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.MainMenuCode.eventsList0x7c73fc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.MainMenuCode.eventsList0x79bfec(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayButton"); }gdjs.MainMenuCode.eventsList0x6908b4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayButton"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayButton"); }gdjs.MainMenuCode.eventsList0x79ca0c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayButton"); }
 }
 
 

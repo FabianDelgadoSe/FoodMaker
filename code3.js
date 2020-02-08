@@ -14,7 +14,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0 = {val:false};
 gdjs.WinOrLoseCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.WinOrLoseCode.eventsList0x73999c = function(runtimeScene) {
+gdjs.WinOrLoseCode.eventsList0x6b963c = function(runtimeScene) {
 
 {
 
@@ -32,8 +32,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x73999c
-gdjs.WinOrLoseCode.eventsList0x6858e4 = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6b963c
+gdjs.WinOrLoseCode.eventsList0x75aefc = function(runtimeScene) {
 
 {
 
@@ -51,8 +51,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6858e4
-gdjs.WinOrLoseCode.eventsList0x7c73fc = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x75aefc
+gdjs.WinOrLoseCode.eventsList0x6800dc = function(runtimeScene) {
 
 {
 
@@ -77,7 +77,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x73999c(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6b963c(runtimeScene);} //End of subevents
 }
 
 }
@@ -92,7 +92,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x6858e4(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x75aefc(runtimeScene);} //End of subevents
 }
 
 }
@@ -118,8 +118,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects1.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x7c73fc
-gdjs.WinOrLoseCode.eventsList0x67eccc = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6800dc
+gdjs.WinOrLoseCode.eventsList0x737694 = function(runtimeScene) {
 
 {
 
@@ -134,7 +134,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x67eccc
+}; //End of gdjs.WinOrLoseCode.eventsList0x737694
 gdjs.WinOrLoseCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
@@ -162,7 +162,7 @@ gdjs.WinOrLoseCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Back
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x7c73fc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x6800dc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
@@ -175,7 +175,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = !(gdjs.evtTools.runtimeScene.sceneJu
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x67eccc(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x737694(runtimeScene);} //End of subevents
 }
 
 }

@@ -28,10 +28,10 @@ gdjs.InstructionsCode.condition2IsTrue_1 = {val:false};
 gdjs.InstructionsCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.InstructionsCode.eventsList0x685904 = function(runtimeScene) {
+gdjs.InstructionsCode.eventsList0x79ec7c = function(runtimeScene) {
 
-}; //End of gdjs.InstructionsCode.eventsList0x685904
-gdjs.InstructionsCode.eventsList0x690934 = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x79ec7c
+gdjs.InstructionsCode.eventsList0x79f194 = function(runtimeScene) {
 
 {
 
@@ -52,8 +52,8 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x690934
-gdjs.InstructionsCode.eventsList0x6da07c = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x79f194
+gdjs.InstructionsCode.eventsList0x79e744 = function(runtimeScene) {
 
 {
 
@@ -72,7 +72,7 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.InstructionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition1IsTrue_0;
-gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(6805356);
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7989820);
 }
 }}
 if (gdjs.InstructionsCode.condition1IsTrue_0.val) {
@@ -136,14 +136,14 @@ gdjs.InstructionsCode.GDStartTimerObjects1.createFrom(runtimeScene.getObjects("S
 }
 }
 { //Subevents
-gdjs.InstructionsCode.eventsList0x690934(runtimeScene);} //End of subevents
+gdjs.InstructionsCode.eventsList0x79f194(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6da07c
-gdjs.InstructionsCode.eventsList0x6da85c = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x79e744
+gdjs.InstructionsCode.eventsList0x79f73c = function(runtimeScene) {
 
 {
 
@@ -172,8 +172,8 @@ gdjs.InstructionsCode.GDInstructionsObjects1.createFrom(runtimeScene.getObjects(
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6da85c
-gdjs.InstructionsCode.eventsList0x680bfc = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x79f73c
+gdjs.InstructionsCode.eventsList0x79fc4c = function(runtimeScene) {
 
 {
 
@@ -189,7 +189,7 @@ gdjs.InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.InstructionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition2IsTrue_0;
-gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7108164);
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7995076);
 }
 }}
 }
@@ -215,13 +215,13 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = false;
 {
 gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) == 1;
 }if (gdjs.InstructionsCode.condition0IsTrue_0.val) {
-{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "InGame2", false);
+{gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "InGame", false);
 }}
 
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x680bfc
+}; //End of gdjs.InstructionsCode.eventsList0x79fc4c
 gdjs.InstructionsCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
@@ -249,14 +249,14 @@ gdjs.InstructionsCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("B
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Generic Start"); }gdjs.InstructionsCode.eventsList0x6da07c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Generic Start"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Generic Start"); }gdjs.InstructionsCode.eventsList0x79e744(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Generic Start"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.InstructionsCode.eventsList0x6da85c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.InstructionsCode.eventsList0x79f73c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
@@ -269,7 +269,7 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.runtimeScene.scen
 }if (gdjs.InstructionsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.InstructionsCode.eventsList0x680bfc(runtimeScene);} //End of subevents
+gdjs.InstructionsCode.eventsList0x79fc4c(runtimeScene);} //End of subevents
 }
 
 }
