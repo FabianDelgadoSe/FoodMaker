@@ -29,7 +29,7 @@ gdjs.FinalMenuCode.condition0IsTrue_0 = {val:false};
 gdjs.FinalMenuCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.FinalMenuCode.eventsList0x6cb8b4 = function(runtimeScene) {
+gdjs.FinalMenuCode.eventsList0x6d869c = function(runtimeScene) {
 
 {
 
@@ -122,8 +122,8 @@ gdjs.FinalMenuCode.GDFinalTextObjects1.createFrom(runtimeScene.getObjects("Final
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6cb8b4
-gdjs.FinalMenuCode.eventsList0x6cc1d4 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6d869c
+gdjs.FinalMenuCode.eventsList0x6be2fc = function(runtimeScene) {
 
 {
 
@@ -149,8 +149,8 @@ gdjs.FinalMenuCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6cc1d4
-gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDURLButtonObjects2Objects = Hashtable.newFrom({"URLButton": gdjs.FinalMenuCode.GDURLButtonObjects2});gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDURLButtonObjects1Objects = Hashtable.newFrom({"URLButton": gdjs.FinalMenuCode.GDURLButtonObjects1});gdjs.FinalMenuCode.eventsList0x6cd6d4 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6be2fc
+gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDURLButtonObjects2Objects = Hashtable.newFrom({"URLButton": gdjs.FinalMenuCode.GDURLButtonObjects2});gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDURLButtonObjects1Objects = Hashtable.newFrom({"URLButton": gdjs.FinalMenuCode.GDURLButtonObjects1});gdjs.FinalMenuCode.eventsList0x6c56fc = function(runtimeScene) {
 
 {
 
@@ -165,8 +165,8 @@ gdjs.FinalMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6cd6d4
-gdjs.FinalMenuCode.eventsList0x6cd2a4 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6c56fc
+gdjs.FinalMenuCode.eventsList0x6c52f4 = function(runtimeScene) {
 
 {
 
@@ -213,14 +213,14 @@ gdjs.FinalMenuCode.GDURLTextObjects1.createFrom(runtimeScene.getObjects("URLText
 }
 }
 { //Subevents
-gdjs.FinalMenuCode.eventsList0x6cd6d4(runtimeScene);} //End of subevents
+gdjs.FinalMenuCode.eventsList0x6c56fc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6cd2a4
-gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDPlayAgainButtonObjects2Objects = Hashtable.newFrom({"PlayAgainButton": gdjs.FinalMenuCode.GDPlayAgainButtonObjects2});gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDPlayAgainButtonObjects1Objects = Hashtable.newFrom({"PlayAgainButton": gdjs.FinalMenuCode.GDPlayAgainButtonObjects1});gdjs.FinalMenuCode.eventsList0x6ce0c4 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6c52f4
+gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDPlayAgainButtonObjects2Objects = Hashtable.newFrom({"PlayAgainButton": gdjs.FinalMenuCode.GDPlayAgainButtonObjects2});gdjs.FinalMenuCode.mapOfGDgdjs_46FinalMenuCode_46GDPlayAgainButtonObjects1Objects = Hashtable.newFrom({"PlayAgainButton": gdjs.FinalMenuCode.GDPlayAgainButtonObjects1});gdjs.FinalMenuCode.eventsList0x6c4994 = function(runtimeScene) {
 
 {
 
@@ -235,8 +235,8 @@ gdjs.FinalMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6ce0c4
-gdjs.FinalMenuCode.eventsList0x6cdc34 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6c4994
+gdjs.FinalMenuCode.eventsList0x6bdc44 = function(runtimeScene) {
 
 {
 
@@ -283,14 +283,14 @@ gdjs.FinalMenuCode.GDPlayAgainTextObjects1.createFrom(runtimeScene.getObjects("P
 }
 }
 { //Subevents
-gdjs.FinalMenuCode.eventsList0x6ce0c4(runtimeScene);} //End of subevents
+gdjs.FinalMenuCode.eventsList0x6c4994(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6cdc34
-gdjs.FinalMenuCode.eventsList0x740b44 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6bdc44
+gdjs.FinalMenuCode.eventsList0x6c4fdc = function(runtimeScene) {
 
 {
 
@@ -320,8 +320,8 @@ gdjs.FinalMenuCode.GDPlayAgainTextObjects1.createFrom(runtimeScene.getObjects("P
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x740b44
-gdjs.FinalMenuCode.eventsList0x6b959c = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6c4fdc
+gdjs.FinalMenuCode.eventsList0x6cd144 = function(runtimeScene) {
 
 {
 
@@ -335,8 +335,8 @@ gdjs.FinalMenuCode.GDURLButtonObjects1.createFrom(runtimeScene.getObjects("URLBu
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6b959c
-gdjs.FinalMenuCode.eventsList0x6c3ec4 = function(runtimeScene) {
+}; //End of gdjs.FinalMenuCode.eventsList0x6cd144
+gdjs.FinalMenuCode.eventsList0x6cd074 = function(runtimeScene) {
 
 {
 
@@ -347,19 +347,19 @@ gdjs.FinalMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJust
 }if (gdjs.FinalMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.FinalMenuCode.eventsList0x6b959c(runtimeScene);} //End of subevents
+gdjs.FinalMenuCode.eventsList0x6cd144(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.FinalMenuCode.eventsList0x6c3ec4
+}; //End of gdjs.FinalMenuCode.eventsList0x6cd074
 gdjs.FinalMenuCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.FinalMenuCode.eventsList0x6cb8b4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.FinalMenuCode.eventsList0x6d869c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
 }
 
 
@@ -372,7 +372,7 @@ gdjs.FinalMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJust
 }if (gdjs.FinalMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.FinalMenuCode.eventsList0x6cc1d4(runtimeScene);} //End of subevents
+gdjs.FinalMenuCode.eventsList0x6be2fc(runtimeScene);} //End of subevents
 }
 
 }
@@ -463,7 +463,7 @@ gdjs.FinalMenuCode.GDPrincipalPanelObjects1.createFrom(runtimeScene.getObjects("
     gdjs.FinalMenuCode.GDPrincipalPanelObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.FinalMenuCode.GDPrincipalPanelObjects1[i].getWidth()) / 2);
 }
 }{for(var i = 0, len = gdjs.FinalMenuCode.GDPrincipalPanelObjects1.length ;i < len;++i) {
-    gdjs.FinalMenuCode.GDPrincipalPanelObjects1[i].setY(170);
+    gdjs.FinalMenuCode.GDPrincipalPanelObjects1[i].setY(185);
 }
 }}
 
@@ -473,28 +473,28 @@ gdjs.FinalMenuCode.GDPrincipalPanelObjects1.createFrom(runtimeScene.getObjects("
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("URLButton"); }gdjs.FinalMenuCode.eventsList0x6cd2a4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("URLButton"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("URLButton"); }gdjs.FinalMenuCode.eventsList0x6c52f4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("URLButton"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayAgainButton"); }gdjs.FinalMenuCode.eventsList0x6cdc34(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayAgainButton"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayAgainButton"); }gdjs.FinalMenuCode.eventsList0x6bdc44(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayAgainButton"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ButtonSizes"); }gdjs.FinalMenuCode.eventsList0x740b44(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ButtonSizes"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ButtonSizes"); }gdjs.FinalMenuCode.eventsList0x6c4fdc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ButtonSizes"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("CardSize"); }gdjs.FinalMenuCode.eventsList0x6c3ec4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("CardSize"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("CardSize"); }gdjs.FinalMenuCode.eventsList0x6cd074(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("CardSize"); }
 }
 
 

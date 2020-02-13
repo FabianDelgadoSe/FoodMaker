@@ -14,7 +14,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0 = {val:false};
 gdjs.WinOrLoseCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.WinOrLoseCode.eventsList0x6b8f3c = function(runtimeScene) {
+gdjs.WinOrLoseCode.eventsList0x6bd5bc = function(runtimeScene) {
 
 {
 
@@ -42,8 +42,8 @@ gdjs.WinOrLoseCode.GDContinueObjects1.createFrom(runtimeScene.getObjects("Contin
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6b8f3c
-gdjs.WinOrLoseCode.eventsList0x6c3e74 = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6bd5bc
+gdjs.WinOrLoseCode.eventsList0x6aebac = function(runtimeScene) {
 
 {
 
@@ -61,8 +61,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6c3e74
-gdjs.WinOrLoseCode.eventsList0x6b9134 = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6aebac
+gdjs.WinOrLoseCode.eventsList0x6ad63c = function(runtimeScene) {
 
 {
 
@@ -80,8 +80,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6b9134
-gdjs.WinOrLoseCode.eventsList0x740b2c = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6ad63c
+gdjs.WinOrLoseCode.eventsList0x6be3ac = function(runtimeScene) {
 
 {
 
@@ -106,7 +106,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x6c3e74(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6aebac(runtimeScene);} //End of subevents
 }
 
 }
@@ -121,7 +121,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x6b9134(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6ad63c(runtimeScene);} //End of subevents
 }
 
 }
@@ -147,8 +147,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects1.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x740b2c
-gdjs.WinOrLoseCode.eventsList0x6c2694 = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6be3ac
+gdjs.WinOrLoseCode.eventsList0x6bd0ec = function(runtimeScene) {
 
 {
 
@@ -163,13 +163,13 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6c2694
+}; //End of gdjs.WinOrLoseCode.eventsList0x6bd0ec
 gdjs.WinOrLoseCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.WinOrLoseCode.eventsList0x6b8f3c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.WinOrLoseCode.eventsList0x6bd5bc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
 }
 
 
@@ -198,7 +198,7 @@ gdjs.WinOrLoseCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Back
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x740b2c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x6be3ac(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
@@ -211,7 +211,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = !(gdjs.evtTools.runtimeScene.sceneJu
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x6c2694(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6bd0ec(runtimeScene);} //End of subevents
 }
 
 }

@@ -38,7 +38,7 @@ gdjs.MainMenuCode.condition1IsTrue_1 = {val:false};
 gdjs.MainMenuCode.condition2IsTrue_1 = {val:false};
 
 
-gdjs.MainMenuCode.eventsList0x740aa4 = function(runtimeScene) {
+gdjs.MainMenuCode.eventsList0x6d869c = function(runtimeScene) {
 
 {
 
@@ -98,8 +98,8 @@ gdjs.MainMenuCode.GDYourBrandLogoObjects1.createFrom(runtimeScene.getObjects("Yo
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x740aa4
-gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects2Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects2});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects1});gdjs.MainMenuCode.eventsList0x6ce784 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x6d869c
+gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects2Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects2});gdjs.MainMenuCode.mapOfGDgdjs_46MainMenuCode_46GDPlayButtonObjects1Objects = Hashtable.newFrom({"PlayButton": gdjs.MainMenuCode.GDPlayButtonObjects1});gdjs.MainMenuCode.eventsList0x6cd5cc = function(runtimeScene) {
 
 {
 
@@ -114,8 +114,8 @@ gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRele
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6ce784
-gdjs.MainMenuCode.eventsList0x6d844c = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x6cd5cc
+gdjs.MainMenuCode.eventsList0x6cd15c = function(runtimeScene) {
 
 {
 
@@ -162,14 +162,14 @@ gdjs.MainMenuCode.GDPlayButtonTextObjects1.createFrom(runtimeScene.getObjects("P
 }
 }
 { //Subevents
-gdjs.MainMenuCode.eventsList0x6ce784(runtimeScene);} //End of subevents
+gdjs.MainMenuCode.eventsList0x6cd5cc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6d844c
-gdjs.MainMenuCode.eventsList0x6cedd4 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x6cd15c
+gdjs.MainMenuCode.eventsList0x6cdc1c = function(runtimeScene) {
 
 {
 
@@ -223,8 +223,8 @@ gdjs.MainMenuCode.GDPrincipalPanelObjects2.createFrom(runtimeScene.getObjects("P
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6cedd4
-gdjs.MainMenuCode.eventsList0x6c6554 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x6cdc1c
+gdjs.MainMenuCode.eventsList0x73d88c = function(runtimeScene) {
 
 {
 
@@ -249,8 +249,8 @@ gdjs.MainMenuCode.GDPlayButtonTextObjects3.createFrom(runtimeScene.getObjects("P
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6c6554
-gdjs.MainMenuCode.eventsList0x6c6cc4 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x73d88c
+gdjs.MainMenuCode.eventsList0x73dffc = function(runtimeScene) {
 
 {
 
@@ -286,8 +286,8 @@ gdjs.MainMenuCode.GDPrincipalPanelObjects2.createFrom(runtimeScene.getObjects("P
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6c6cc4
-gdjs.MainMenuCode.eventsList0x6c6944 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x73dffc
+gdjs.MainMenuCode.eventsList0x73dc7c = function(runtimeScene) {
 
 {
 
@@ -328,14 +328,14 @@ if( gdjs.MainMenuCode.condition1IsTrue_1.val ) {
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.MainMenuCode.eventsList0x6c6cc4(runtimeScene);} //End of subevents
+gdjs.MainMenuCode.eventsList0x73dffc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6c6944
-gdjs.MainMenuCode.eventsList0x6c6874 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x73dc7c
+gdjs.MainMenuCode.eventsList0x73dbac = function(runtimeScene) {
 
 {
 
@@ -346,7 +346,7 @@ gdjs.MainMenuCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJustB
 }if (gdjs.MainMenuCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.MainMenuCode.eventsList0x6c6944(runtimeScene);} //End of subevents
+gdjs.MainMenuCode.eventsList0x73dc7c(runtimeScene);} //End of subevents
 }
 
 }
@@ -359,51 +359,51 @@ gdjs.MainMenuCode.eventsList0x6c6944(runtimeScene);} //End of subevents
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6c6874
-gdjs.MainMenuCode.eventsList0x6ced24 = function(runtimeScene) {
+}; //End of gdjs.MainMenuCode.eventsList0x73dbac
+gdjs.MainMenuCode.eventsList0x6cdb6c = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.MainMenuCode.eventsList0x6cedd4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.MainMenuCode.eventsList0x6cdc1c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ButtonSize"); }gdjs.MainMenuCode.eventsList0x6c6554(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ButtonSize"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ButtonSize"); }gdjs.MainMenuCode.eventsList0x73d88c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ButtonSize"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("CardSize"); }gdjs.MainMenuCode.eventsList0x6c6874(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("CardSize"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("CardSize"); }gdjs.MainMenuCode.eventsList0x73dbac(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("CardSize"); }
 }
 
 
-}; //End of gdjs.MainMenuCode.eventsList0x6ced24
+}; //End of gdjs.MainMenuCode.eventsList0x6cdb6c
 gdjs.MainMenuCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.MainMenuCode.eventsList0x740aa4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.MainMenuCode.eventsList0x6d869c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayButton"); }gdjs.MainMenuCode.eventsList0x6d844c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayButton"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("PlayButton"); }gdjs.MainMenuCode.eventsList0x6cd15c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("PlayButton"); }
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ResponsiveUI"); }gdjs.MainMenuCode.eventsList0x6ced24(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ResponsiveUI"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("ResponsiveUI"); }gdjs.MainMenuCode.eventsList0x6cdb6c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("ResponsiveUI"); }
 }
 
 
