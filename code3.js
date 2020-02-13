@@ -14,7 +14,36 @@ gdjs.WinOrLoseCode.condition0IsTrue_0 = {val:false};
 gdjs.WinOrLoseCode.condition1IsTrue_0 = {val:false};
 
 
-gdjs.WinOrLoseCode.eventsList0x6b963c = function(runtimeScene) {
+gdjs.WinOrLoseCode.eventsList0x6b8f3c = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOrLose"));
+{for(var i = 0, len = gdjs.WinOrLoseCode.GDWinOrLoseObjects2.length ;i < len;++i) {
+    gdjs.WinOrLoseCode.GDWinOrLoseObjects2[i].setColor("250;250;250");
+}
+}}
+
+}
+
+
+{
+
+
+{
+gdjs.WinOrLoseCode.GDContinueObjects1.createFrom(runtimeScene.getObjects("Continue"));
+{for(var i = 0, len = gdjs.WinOrLoseCode.GDContinueObjects1.length ;i < len;++i) {
+    gdjs.WinOrLoseCode.GDContinueObjects1[i].setColor("250;250;250");
+}
+}}
+
+}
+
+
+}; //End of gdjs.WinOrLoseCode.eventsList0x6b8f3c
+gdjs.WinOrLoseCode.eventsList0x6c3e74 = function(runtimeScene) {
 
 {
 
@@ -32,8 +61,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6b963c
-gdjs.WinOrLoseCode.eventsList0x75aefc = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6c3e74
+gdjs.WinOrLoseCode.eventsList0x6b9134 = function(runtimeScene) {
 
 {
 
@@ -51,8 +80,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects2.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x75aefc
-gdjs.WinOrLoseCode.eventsList0x6800dc = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x6b9134
+gdjs.WinOrLoseCode.eventsList0x740b2c = function(runtimeScene) {
 
 {
 
@@ -77,7 +106,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x6b963c(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6c3e74(runtimeScene);} //End of subevents
 }
 
 }
@@ -92,7 +121,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableNumb
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x75aefc(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6b9134(runtimeScene);} //End of subevents
 }
 
 }
@@ -118,8 +147,8 @@ gdjs.WinOrLoseCode.GDWinOrLoseObjects1.createFrom(runtimeScene.getObjects("WinOr
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x6800dc
-gdjs.WinOrLoseCode.eventsList0x737694 = function(runtimeScene) {
+}; //End of gdjs.WinOrLoseCode.eventsList0x740b2c
+gdjs.WinOrLoseCode.eventsList0x6c2694 = function(runtimeScene) {
 
 {
 
@@ -134,8 +163,15 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = gdjs.evtTools.input.isMouseButtonRel
 }
 
 
-}; //End of gdjs.WinOrLoseCode.eventsList0x737694
+}; //End of gdjs.WinOrLoseCode.eventsList0x6c2694
 gdjs.WinOrLoseCode.eventsList0xb4be0 = function(runtimeScene) {
+
+{
+
+
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.WinOrLoseCode.eventsList0x6b8f3c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
+}
+
 
 {
 
@@ -143,10 +179,10 @@ gdjs.WinOrLoseCode.eventsList0xb4be0 = function(runtimeScene) {
 {
 gdjs.WinOrLoseCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Background"));
 {for(var i = 0, len = gdjs.WinOrLoseCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.WinOrLoseCode.GDBackgroundObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2);
+    gdjs.WinOrLoseCode.GDBackgroundObjects1[i].setX(0);
 }
 }{for(var i = 0, len = gdjs.WinOrLoseCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.WinOrLoseCode.GDBackgroundObjects1[i].setY(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2);
+    gdjs.WinOrLoseCode.GDBackgroundObjects1[i].setY(0);
 }
 }{for(var i = 0, len = gdjs.WinOrLoseCode.GDBackgroundObjects1.length ;i < len;++i) {
     gdjs.WinOrLoseCode.GDBackgroundObjects1[i].setWidth(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene));
@@ -162,7 +198,7 @@ gdjs.WinOrLoseCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Back
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x6800dc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.WinOrLoseCode.eventsList0x740b2c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
@@ -175,7 +211,7 @@ gdjs.WinOrLoseCode.condition0IsTrue_0.val = !(gdjs.evtTools.runtimeScene.sceneJu
 }if (gdjs.WinOrLoseCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.WinOrLoseCode.eventsList0x737694(runtimeScene);} //End of subevents
+gdjs.WinOrLoseCode.eventsList0x6c2694(runtimeScene);} //End of subevents
 }
 
 }
