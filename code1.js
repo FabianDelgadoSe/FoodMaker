@@ -28,10 +28,67 @@ gdjs.InstructionsCode.condition2IsTrue_1 = {val:false};
 gdjs.InstructionsCode.condition3IsTrue_1 = {val:false};
 
 
-gdjs.InstructionsCode.eventsList0x6d8704 = function(runtimeScene) {
+gdjs.InstructionsCode.eventsList0x77d45c = function(runtimeScene) {
 
-}; //End of gdjs.InstructionsCode.eventsList0x6d8704
-gdjs.InstructionsCode.eventsList0x6c4744 = function(runtimeScene) {
+{
+
+
+{
+/* Reuse gdjs.InstructionsCode.GDBackgroundObjects2 */
+{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDBackgroundObjects2[i].setWidth((gdjs.InstructionsCode.GDBackgroundObjects2[i].getWidth()) * gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightFactor")));
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDBackgroundObjects2[i].setHeight((gdjs.InstructionsCode.GDBackgroundObjects2[i].getHeight()) * gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightFactor")));
+}
+}}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x77d45c
+gdjs.InstructionsCode.eventsList0x777d74 = function(runtimeScene) {
+
+{
+
+
+gdjs.InstructionsCode.condition0IsTrue_0.val = false;
+{
+{gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition0IsTrue_0;
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7853244);
+}
+}if (gdjs.InstructionsCode.condition0IsTrue_0.val) {
+gdjs.InstructionsCode.GDBackgroundObjects2.createFrom(runtimeScene.getObjects("Background"));
+{runtimeScene.getVariables().get("HeightFactor").setNumber(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / (( gdjs.InstructionsCode.GDBackgroundObjects2.length === 0 ) ? 0 :gdjs.InstructionsCode.GDBackgroundObjects2[0].getHeight()));
+}
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x77d45c(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+{
+gdjs.InstructionsCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Background"));
+{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDBackgroundObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDBackgroundObjects1[i].getWidth()) / 2);
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDBackgroundObjects1[i].setY(0);
+}
+}}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x777d74
+gdjs.InstructionsCode.eventsList0x6b8bac = function(runtimeScene) {
+
+}; //End of gdjs.InstructionsCode.eventsList0x6b8bac
+gdjs.InstructionsCode.eventsList0x77e4fc = function(runtimeScene) {
 
 {
 
@@ -52,8 +109,8 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6c4744
-gdjs.InstructionsCode.eventsList0x6c5434 = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x77e4fc
+gdjs.InstructionsCode.eventsList0x8003bc = function(runtimeScene) {
 
 {
 
@@ -65,7 +122,7 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.InstructionsCode.condition0IsTrue_0.val ) {
 {
 {gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition1IsTrue_0;
-gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7099868);
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7855604);
 }
 }}
 if (gdjs.InstructionsCode.condition1IsTrue_0.val) {
@@ -129,37 +186,162 @@ gdjs.InstructionsCode.GDStartTimerObjects1.createFrom(runtimeScene.getObjects("S
 }
 }
 { //Subevents
-gdjs.InstructionsCode.eventsList0x6c4744(runtimeScene);} //End of subevents
+gdjs.InstructionsCode.eventsList0x77e4fc(runtimeScene);} //End of subevents
 }
 
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6c5434
-gdjs.InstructionsCode.eventsList0x6c4cd4 = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x8003bc
+gdjs.InstructionsCode.eventsList0x77ee34 = function(runtimeScene) {
 
 {
 
 
 {
-gdjs.InstructionsCode.GDContinueObjects1.createFrom(runtimeScene.getObjects("Continue"));
-gdjs.InstructionsCode.GDInstructionsObjects1.createFrom(runtimeScene.getObjects("Instructions"));
-{for(var i = 0, len = gdjs.InstructionsCode.GDContinueObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDContinueObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDContinueObjects1[i].getWidth()) / 2);
-}
-}{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDInstructionsObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDInstructionsObjects1[i].getWidth()) / 2);
-}
-}{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDInstructionsObjects1[i].setTextAlignment("center");
+/* Reuse gdjs.InstructionsCode.GDContinueObjects2 */
+{for(var i = 0, len = gdjs.InstructionsCode.GDContinueObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDContinueObjects2[i].setScale(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightContinueFactor")));
 }
 }}
 
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6c4cd4
-gdjs.InstructionsCode.eventsList0x6c50f4 = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x77ee34
+gdjs.InstructionsCode.eventsList0x77eb2c = function(runtimeScene) {
+
+{
+
+
+gdjs.InstructionsCode.condition0IsTrue_0.val = false;
+gdjs.InstructionsCode.condition1IsTrue_0.val = false;
+{
+{gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition0IsTrue_0;
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7859860);
+}
+}if ( gdjs.InstructionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightContinueFactor")) >= gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) * 0.6;
+}}
+if (gdjs.InstructionsCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.InstructionsCode.GDContinueObjects2 */
+{runtimeScene.getVariables().get("HeightContinueFactor").setNumber(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) * 0.6 / (( gdjs.InstructionsCode.GDContinueObjects2.length === 0 ) ? 0 :gdjs.InstructionsCode.GDContinueObjects2[0].getWidth()));
+}
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x77ee34(runtimeScene);} //End of subevents
+}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x77eb2c
+gdjs.InstructionsCode.eventsList0x77f69c = function(runtimeScene) {
+
+{
+
+
+{
+/* Reuse gdjs.InstructionsCode.GDInstructionsObjects2 */
+{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDInstructionsObjects2[i].setScale(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightInstructionsFactor")));
+}
+}}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x77f69c
+gdjs.InstructionsCode.eventsList0x77f2f4 = function(runtimeScene) {
+
+{
+
+
+gdjs.InstructionsCode.condition0IsTrue_0.val = false;
+gdjs.InstructionsCode.condition1IsTrue_0.val = false;
+{
+{gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition0IsTrue_0;
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7862012);
+}
+}if ( gdjs.InstructionsCode.condition0IsTrue_0.val ) {
+{
+gdjs.InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().get("HeightInstructionsFactor")) >= gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) * 0.9;
+}}
+if (gdjs.InstructionsCode.condition1IsTrue_0.val) {
+/* Reuse gdjs.InstructionsCode.GDInstructionsObjects2 */
+{runtimeScene.getVariables().get("HeightInstructionsFactor").setNumber(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) * 0.9 / (( gdjs.InstructionsCode.GDInstructionsObjects2.length === 0 ) ? 0 :gdjs.InstructionsCode.GDInstructionsObjects2[0].getWidth()));
+}
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x77f69c(runtimeScene);} //End of subevents
+}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x77f2f4
+gdjs.InstructionsCode.eventsList0x80a97c = function(runtimeScene) {
+
+{
+
+
+{
+gdjs.InstructionsCode.GDContinueObjects2.createFrom(runtimeScene.getObjects("Continue"));
+{for(var i = 0, len = gdjs.InstructionsCode.GDContinueObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDContinueObjects2[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDContinueObjects2[i].getWidth()) / 2);
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDContinueObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDContinueObjects2[i].setY(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) - ((gdjs.InstructionsCode.GDContinueObjects2[i].getHeight()) * 1.5));
+}
+}{runtimeScene.getVariables().get("HeightContinueFactor").setNumber((( gdjs.InstructionsCode.GDContinueObjects2.length === 0 ) ? 0 :gdjs.InstructionsCode.GDContinueObjects2[0].getWidth()));
+}
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x77eb2c(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+{
+gdjs.InstructionsCode.GDInstructionsObjects2.createFrom(runtimeScene.getObjects("Instructions"));
+{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDInstructionsObjects2[i].setTextAlignment("center");
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDInstructionsObjects2[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDInstructionsObjects2[i].getWidth()) / 2);
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDInstructionsObjects2.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDInstructionsObjects2[i].setY(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) * 0.05);
+}
+}{runtimeScene.getVariables().get("HeightInstructionsFactor").setNumber((( gdjs.InstructionsCode.GDInstructionsObjects2.length === 0 ) ? 0 :gdjs.InstructionsCode.GDInstructionsObjects2[0].getWidth()));
+}
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x77f2f4(runtimeScene);} //End of subevents
+}
+
+}
+
+
+{
+
+
+{
+gdjs.InstructionsCode.GDStartTimerObjects1.createFrom(runtimeScene.getObjects("StartTimer"));
+{for(var i = 0, len = gdjs.InstructionsCode.GDStartTimerObjects1.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDStartTimerObjects1[i].setX(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene) / 2 - (gdjs.InstructionsCode.GDStartTimerObjects1[i].getWidth()) / 2);
+}
+}{for(var i = 0, len = gdjs.InstructionsCode.GDStartTimerObjects1.length ;i < len;++i) {
+    gdjs.InstructionsCode.GDStartTimerObjects1[i].setY(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene) / 2 - (gdjs.InstructionsCode.GDStartTimerObjects1[i].getHeight()) / 2);
+}
+}}
+
+}
+
+
+}; //End of gdjs.InstructionsCode.eventsList0x80a97c
+gdjs.InstructionsCode.eventsList0x77fdb4 = function(runtimeScene) {
 
 {
 
@@ -175,7 +357,7 @@ gdjs.InstructionsCode.condition1IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }if ( gdjs.InstructionsCode.condition1IsTrue_0.val ) {
 {
 {gdjs.InstructionsCode.conditionTrue_1 = gdjs.InstructionsCode.condition2IsTrue_0;
-gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7131228);
+gdjs.InstructionsCode.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7864404);
 }
 }}
 }
@@ -207,8 +389,8 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.common.getVariableN
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6c50f4
-gdjs.InstructionsCode.eventsList0x6cd6fc = function(runtimeScene) {
+}; //End of gdjs.InstructionsCode.eventsList0x77fdb4
+gdjs.InstructionsCode.eventsList0x69d29c = function(runtimeScene) {
 
 {
 
@@ -249,27 +431,17 @@ gdjs.InstructionsCode.GDContinueObjects1.createFrom(runtimeScene.getObjects("Con
 }
 
 
-}; //End of gdjs.InstructionsCode.eventsList0x6cd6fc
+}; //End of gdjs.InstructionsCode.eventsList0x69d29c
 gdjs.InstructionsCode.eventsList0xb4be0 = function(runtimeScene) {
 
 {
 
 
 {
-gdjs.InstructionsCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("Background"));
-{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDBackgroundObjects1[i].setX(0);
+
+{ //Subevents
+gdjs.InstructionsCode.eventsList0x777d74(runtimeScene);} //End of subevents
 }
-}{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDBackgroundObjects1[i].setY(0);
-}
-}{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDBackgroundObjects1[i].setWidth(gdjs.evtTools.window.getGameResolutionWidth(runtimeScene));
-}
-}{for(var i = 0, len = gdjs.InstructionsCode.GDBackgroundObjects1.length ;i < len;++i) {
-    gdjs.InstructionsCode.GDBackgroundObjects1[i].setHeight(gdjs.evtTools.window.getGameResolutionHeight(runtimeScene));
-}
-}}
 
 }
 
@@ -277,14 +449,21 @@ gdjs.InstructionsCode.GDBackgroundObjects1.createFrom(runtimeScene.getObjects("B
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Generic Start"); }gdjs.InstructionsCode.eventsList0x6c5434(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Generic Start"); }
+
 }
 
 
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.InstructionsCode.eventsList0x6c4cd4(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Generic Start"); }gdjs.InstructionsCode.eventsList0x8003bc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Generic Start"); }
+}
+
+
+{
+
+
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Set Scene"); }gdjs.InstructionsCode.eventsList0x80a97c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Set Scene"); }
 }
 
 
@@ -297,7 +476,7 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = !(gdjs.evtTools.runtimeScene.scen
 }if (gdjs.InstructionsCode.condition0IsTrue_0.val) {
 
 { //Subevents
-gdjs.InstructionsCode.eventsList0x6c50f4(runtimeScene);} //End of subevents
+gdjs.InstructionsCode.eventsList0x77fdb4(runtimeScene);} //End of subevents
 }
 
 }
@@ -319,7 +498,7 @@ gdjs.InstructionsCode.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.sceneJ
 {
 
 
-if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.InstructionsCode.eventsList0x6cd6fc(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
+if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().begin("Colors"); }gdjs.InstructionsCode.eventsList0x69d29c(runtimeScene);if (runtimeScene.getProfiler()) { runtimeScene.getProfiler().end("Colors"); }
 }
 
 
